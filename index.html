@@ -23,8 +23,8 @@
 				>
 
 				<button type="button" class="hamburger-btn js-open-menu">
-					<svg class="hamburger-icon" >
-						<use href="./images/symbol-defs.svg#icon-charm_menu-hamburger" ></use>
+					<svg class="hamburger-icon">
+						<use href="./images/symbol-defs.svg#icon-charm_menu-hamburger"></use>
 					</svg>
 				</button>
 
@@ -43,7 +43,9 @@
 					<address class="contact">
 						<ul class="list list-contact">
 							<li class="item">
-								<a href="tel:+110001111111" class="link tel-link contact-link">+11 (000) 111-11-11</a>
+								<a href="tel:+110001111111" class="link tel-link contact-link"
+									>+11 (000) 111-11-11</a
+								>
 							</li>
 							<li class="item">
 								<a href="mailto:info@devstudio.com" class="link mail-link contact-link"
@@ -173,21 +175,57 @@
 					<h2 class="section-title">What are we doing</h2>
 					<ul class="list list-produkt">
 						<li class="item">
-							<img
-								src="./images/webstudio/produkt/desctop.jpg"
-								alt="desctop"
-								width="360"
-							/>
+							<picture>
+								<source
+									media="(min-width: 1200px)"
+									srcset="
+										./images/webstudio/produkt/desctop-360-min.jpg    1x,
+										./images/webstudio/produkt/desctop-360@2x-min.jpg 2x
+									"
+									type="image/jpg"
+									
+								/>
+								<img
+									src="#"
+									alt="desctop"
+									width="360"
+								/>
+							</picture>
 						</li>
 						<li class="item">
-							<img src="./images/webstudio/produkt/mobile.jpg" alt="mobile" width="360" />
+							<picture>
+								<source
+									media="(min-width: 1200px)"
+									srcset="
+										./images/webstudio/produkt/mobile-360-min.jpg    1x,
+										./images/webstudio/produkt/mobile-360@2x-min.png 2x
+									"
+									type="image/jpg"
+								/>
+								<img
+									src="#"
+									alt="mobile"
+									width="360"
+								/>
+							</picture>
 						</li>
 						<li class="item">
-							<img
-								src="./images/webstudio/produkt/notebook.jpg"
-								alt="notebook"
-								width="360"
-							/>
+							<picture>
+								<source
+									media="(min-width: 1200px)"
+									srcset="
+									./images/webstudio/produkt/notebook-360-min.jpg    1x,
+										./images/webstudio/produkt/notebook-360@2x-min.jpg 2x
+									"
+									type="image/jpg"
+								/>
+								<img
+									src="#"
+									alt="notebook"
+									width="360"
+								/>
+							</picture>
+
 						</li>
 					</ul>
 				</div>
@@ -200,7 +238,10 @@
 					<ul class="list list-team">
 						<li class="item">
 							<img
-								srcset="./images/webstudio/team/team-1-264-min.jpg 1x, ./images/webstudio/team/team-1-264@2x-min.jpg 2x"
+								srcset="
+									./images/webstudio/team/team-1-264-min.jpg    1x,
+									./images/webstudio/team/team-1-264@2x-min.jpg 2x
+								"
 								src="./images/webstudio/team/team-1-264-min.jpg"
 								alt="Product Designer"
 								width="264"
@@ -244,7 +285,10 @@
 
 						<li class="item">
 							<img
-								srcset="./images/webstudio/team/team-2-264-min.jpg 1x, ./images/webstudio/team/team-2-264@2x-min.jpg 2x"
+								srcset="
+									./images/webstudio/team/team-2-264-min.jpg    1x,
+									./images/webstudio/team/team-2-264@2x-min.jpg 2x
+								"
 								src="./images/webstudio/team/team-2-264-min.jpg"
 								alt="Product Designer"
 								width="264"
@@ -286,7 +330,10 @@
 						</li>
 						<li class="item">
 							<img
-								srcset="./images/webstudio/team/team-3-264-min.jpg 1x, ./images/webstudio/team/team-3-264@2x-min.jpg 2x"
+								srcset="
+									./images/webstudio/team/team-3-264-min.jpg    1x,
+									./images/webstudio/team/team-3-264@2x-min.jpg 2x
+								"
 								src="./images/webstudio/team/team-3-264-min.jpg"
 								alt="Product Designer"
 								width="264"
@@ -328,7 +375,10 @@
 						</li>
 						<li class="item">
 							<img
-								srcset="./images/webstudio/team/team-4-264-min.jpg 1x, ./images/webstudio/team/team-4-264@2x-min.jpg 2x"
+								srcset="
+									./images/webstudio/team/team-4-264-min.jpg    1x,
+									./images/webstudio/team/team-4-264@2x-min.jpg 2x
+								"
 								src="./images/webstudio/team/team-4-min.jpg"
 								alt="Product Designer"
 								width="264"
