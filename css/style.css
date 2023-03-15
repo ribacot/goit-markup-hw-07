@@ -381,7 +381,7 @@ img {
 
 /* tel-link, mail-link */
 .tel-link {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 700;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
@@ -389,23 +389,23 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 427px) {
 	.tel-link {
-		font-size: 7.5vw;
+		font-size: 7.6vw;
 	}
 }
 
-@media screen  and (min-width: 428px) and (max-width: 767px) {
+@media screen and (min-width: 428px) and (max-width: 767px) {
 	.tel-link {
 		font-size: 36px;
 	}
 }
-@media screen  and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.mail-link {
 		font-size: 20px;
 		font-weight: 500;
 		line-height: 1.2;
 		letter-spacing: 0.02em;
-	}}
-
+	}
+}
 
 /* menu-social */
 @media screen and (min-width: 768px) {
@@ -417,19 +417,18 @@ img {
 .menu-social > .list-team-social-icon {
 	margin: 0;
 	padding: 0;
-	/* flex-wrap: wrap; */
 	justify-content: flex-start;
-	/* gap: 56px; */
-	/* gap:10.08vw; */
 }
-@media screen  and (max-width: 427px){ .menu-social > .list-team-social-icon {
-	
-gap:10.1vw;}}
-
-@media screen  and (min-width: 428px) and (max-width: 767px) {
+@media screen and (max-width: 427px) {
+	.menu-social > .list-team-social-icon {
+		gap: 10.1vw;
+	}
+}
+@media screen and (min-width: 428px) and (max-width: 767px) {
 	.menu-social > .list-team-social-icon {
 		gap: 56px;
-	}}
+	}
+}
 
 /* HERO*/
 
