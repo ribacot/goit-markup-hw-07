@@ -343,7 +343,6 @@ img {
 	gap: 40px;
 }
 
-
 /* list-contact */
 @media screen and (min-width: 768px) {
 	.list-contact {
@@ -432,7 +431,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-	.mobil-social{
+	.mobil-social {
 		display: none;
 	}
 }
@@ -494,7 +493,6 @@ img {
 		}
 	}
 }
-
 
 .hero-title {
 	color: var(--white);
@@ -783,7 +781,9 @@ input[type="checkbox"]:focus + span {
 /*  FEATURES */
 @media screen and (max-width: 767px) {
 	.features .section-subtitle {
-		text-align: center;}}
+		text-align: center;
+	}
+}
 
 @media screen and (max-width: 1199px) {
 	.features .section-subtitle {
